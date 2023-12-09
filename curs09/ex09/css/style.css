@@ -57,3 +57,24 @@ body {
   left: 10px;
 }
 /* please do not modify this code */
+
+/* CHECK CODE ABOVE */
+.flex-container-02 {
+ flex-direction: column;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.flex-container-02 > :first-child + div {
+
+}
+
+.flex-container-02 :last-child {
+
+}
+
+.flex-container-05 {
+
+}
+
+/* CHECK CODE BELOW */

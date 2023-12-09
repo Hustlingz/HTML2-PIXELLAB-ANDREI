@@ -41,3 +41,35 @@
   color: #fff;
 }
 /* please do not modify this code */
+
+.flex-container-01 {
+  align-items: center;
+}
+
+.flex-container-01 :first-child {
+  flex-grow: 1;
+}
+
+/* INSERT CODE */
+
+.flex-container-03 {
+  align-items: flex-end;
+}
+
+.flex-container-03 > .underlay + .flex-item {
+  flex-grow: 1;
+}
+
+.flex-container-05 {
+  align-items: flex-end;
+}
+
+.flex-container-05 > :nth-child(3) {
+  flex-grow: 1;
+}
+
+.flex-container-05 >:nth-child(3) + .flex-item {
+  flex-grow: 2;
+}
+
+/* INSERT CODE container 6 */
